@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f2395a;
+    /* background: #00B3B4; */
+    font-size: 20px;
+    line-height: 28px;
+    color: #323b40;
+    margin: 40px 0;
+}
+
+body::before {
+    position: fixed;
+    content: "";
+    height: 400px;
+    width: 400px;
+    top: 20px;
+    right: 30px;
+    background: url(../images/css3_logo.png) no-repeat;
+    background-size: 100%;
+    opacity: .2;
+}
+
+h1 {
+    width: 60%;
+    max-width: 960px;
+    margin: 0 auto 60px;
+    transform: rotate(-3deg);
+    color: white;
+    text-align: left;
+    font-size: 5rem;
+    line-height: 5rem;
+    text-shadow: 0 1px 0 hsl(52,7%,20%), 0 2px 0 hsl(52,7%,18%), 0 3px 0 hsl(52,7%,16%), 0 4px 0 hsl(52,7%,14%), 0 5px 0 hsl(52,7%,12%), 0 6px 0 hsl(52,7%,10%), 0 7px 0 hsl(52,7%,8%), 0 8px 0 hsl(52,7%,6%), 0 0 5px rgba(0,0,0,.05), 0 1px 3px rgba(0,0,0,.2), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.2), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+section {
+    position: relative;
+    border-top: solid 1px #f9f9f9;
+    border-bottom: solid 1px #ddd;
+    padding: 25px 0;
+}
+
+.sandbox, .final-result, .info {
+    position: relative;
+    background: #e7eef1;
+    width: 60%;
+    max-width: 960px;
+    margin: 60px auto;
+    padding: 40px 40px 60px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 12px 0 -6px #fa90a3;
+}
